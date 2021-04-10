@@ -6,5 +6,4 @@ function main(input) {
              throw("ANOTHER CRASH");
         }
 }
-
 module.exports = { main };
