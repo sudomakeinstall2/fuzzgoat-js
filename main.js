@@ -2,7 +2,7 @@ function main(input) {
         if (input[0] == "F" && input[1] == "U" && input[2] == "Z" && input == "FUZZ"){
              throw("CRASH");
         }
-        if (input[0] == "C" && input == "CYD"){
+        if (input[0] == "C" && input[1] == "Y" && input == "CYD"){
              throw("ANOTHER CRASH");
         }
 }
